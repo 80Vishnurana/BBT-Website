@@ -1,0 +1,30 @@
+@media only screen and (min-width: 300px) and (max-width:600px) {
+  .address {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .addressb {
+    width: auto;
+    border: none;
+
+  }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width:800px) {
+  .address {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .addressb {
+    width: auto;
+    border: none
+  }
+}

@@ -1,0 +1,100 @@
+.heading-crousel {
+    margin-top: -17rem;
+}
+
+.contaner {
+    background-color: white;
+    display: flex;
+    height: 5rem;
+    opacity: 0.9,
+}
+
+.row {
+    background-color: #fcfafa;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cont {
+    margin-top: -22px;
+
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width:600px) {
+    .box {
+        display: flex;
+        flex-flow: column;
+
+    }
+
+    .box-t {
+        padding: 10px;
+    }
+
+    .box-img {
+        margin: 0%;
+    }
+
+    .box-img img {
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+.accodian :hover {
+    background-color: darkblue;
+    color: #fff;
+
+}
+
+.cloud :hover {
+
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.istockphoto.com/id/1394781347/photo/hand-holdig-plant-growing-on-green-background-with-sunshine.jpg?s=612x612&w=is&k=20&c=WMGlD6WQnUoaXqvlP6Jl2H2Sl5QGSlgVGYzUZbZXLt8=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cards :hover {
+    color: #f1f1f1;
+
+}
+
+.about {
+    background-color: #fff;
+}
+
+.abouthead {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+}
+
+.accbox {
+    background-color: rgb(219, 218, 218);
+    padding: 0px 5px 0px 5px;
+
+}

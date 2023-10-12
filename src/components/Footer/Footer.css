@@ -1,0 +1,19 @@
+.red {
+    padding-top: 10px;
+}
+
+.red a {
+    color: rgb(240, 239, 239)
+}
+
+.footer {
+    background-color: darkblue;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:600px) {}
+
+.footer p :hover {
+    text-decoration: none;
+
+}
