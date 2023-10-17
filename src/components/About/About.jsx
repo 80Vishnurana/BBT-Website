@@ -3,9 +3,9 @@ import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import React, { useState } from 'react'
 import './About.css'
-import { NavLink } from 'react-router-dom'
 import { styled } from '@mui/material/styles';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
+import Heading from '../Heading/Heading';
 
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
@@ -25,28 +25,13 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 const About = () => {
   const [counterStart, setCounterStart] = useState(false);
 
+
+  const heading = "About Us"
+  const subheading = "About Us"
+
   return (
     <>
-      <Box sx={{
-        backgroundImage: `url('https://cdn.pixabay.com/photo/2018/03/13/22/53/puzzle-3223941_1280.jpg')`,
-        boxShadow: "inset 0 0 800px black",
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center', display: "flex", alignItems: "center", justifyContent: 'center', height: "9rem", pl: "3rem ", mb: "2rem"
-      }}>
-        <Box display={"flex"} sx={{
-          flexFlow: "column"
-        }}>
-          <Typography variant='h3' sx={{ color: "white", fontSize: "45px" }}>
-            About Us
-          </Typography>
-
-          <Typography textAlign={"center"} fontSize={"25px"}>
-            <NavLink to="/" >Home</NavLink><span style={{ color: 'white', fontWeight: "600", fontSize: "25px" }}>About Us </span>
-          </Typography>
-        </Box>
-      </Box>
-
+      <Heading Title={heading} subTitle={subheading} />
       <Box sx={{ px: { xs: 2, md: 3, lg: 10, }, }} >
         <Box sx={{ px: { xs: 0, md: 1, lg: 5 }, py: { xs: 1, md: 2, lg: 4 }, display: "flex", flexDirection: { xs: "column", lg: "row" }, }}>
           <Box sx={{ pr: 6, pb: 2, }}>
@@ -124,28 +109,20 @@ const About = () => {
           <Box sx={{ width: { xs: "85vw", lg: "35vw" }, height: { xs: "45vh", lg: "70vh" }, py: "3rem", }}  >
             <img style={{ boxShadow: " -15px -15px 5px black", borderTopLeftRadius: "10rem" }} src="../public/vission.jpg" alt="" height={"100%"} width={"100%"} />
           </Box>
-
         </Grid>
         <Grid xs={12} md={6} lg={6}   >
-          <Box sx={{ width: "40vw", height: "60vh" }}>
+          <Box sx={{ width: { xs: "85vw", md: "60vw", lg: "40vw" }, height: { xs: "auto", md: "auto", lg: "60vh" } }}>
             <Typography textAlign={"center"} ><img src="../public/chart.png" widthalt="60px" height="60px" /></Typography>
             <Typography textAlign={"center"} sx={{ py: "1rem", fontWeight: "bold" }} variant='h4' >
               Our Vision
             </Typography>
-            <Typography variant='body1' sx={{ textAlign: "start", pl: "2rem" }}>
+            <Typography variant='body1' sx={{ textAlign: "start", pl: { xs: "0rem", md: "1.5rem", lg: "2rem" } }}>
               Blue Brain Technologies is very clear with its vision to create opportunities with the knowledge of information technology for our clients to fulfill their desires. We want to create a world through advance technology collaborated with innovative ideas and efficacious hard work along with young talent to leave an influential effect on new age technology.
             </Typography>
           </Box>
 
         </Grid>
       </Grid>
-
-
-
-
-
-
-
       <Box sx={{ mx: { xs: "1rem", lg: "9rem" }, py: 7 }} >
         <Typography variant='h4'>Our Features</Typography>
         <Typography pb={5} pt={2}>It's what we do, and we know how to make it work for our clients and organization. We are using latest technology working in cooperation with the customers. We are committed to Quality & Security is Paramount.</Typography>
@@ -259,9 +236,9 @@ const About = () => {
 
       <ScrollTrigger onEnter={() => setCounterStart(true)} onExit={() => setCounterStart(false)} >
 
-        <Grid container direction={"row"} sx={{ width: "100%", backgroundColor: "whitesmoke", height: "30vh", mt: 10, }}>
+        <Grid container direction={"row"} sx={{ width: "100%", backgroundColor: "whitesmoke", height: { xs: "auto", md: "auto", lg: "30vh" }, mt: 10, }}>
           <Grid xs={12} md={6} lg={3}>
-            <Box sx={{ height: "170px", width: "300px", display: "flex", justifyContent: "center", alignItems: "center", }}>
+            <Box sx={{ height: { xs: "140px", lg: "170px" }, display: "flex", justifyContent: "center", alignItems: "center", }}>
               <Box sx={{ pr: 2 }}>
                 <img src="../public/team.png" alt="" height={"50px"} width={"50px"} />
               </Box>
@@ -276,7 +253,7 @@ const About = () => {
             </Box>
           </Grid>
           <Grid xs={12} md={6} lg={3}>
-            <Box sx={{ backgroundColor: "whitesmoke", height: "170px", width: "300px", display: "flex", justifyContent: "center", alignItems: "center", }}>
+            <Box sx={{ height: { xs: "140px", lg: "170px" }, display: "flex", justifyContent: "center", alignItems: "center", }}>
               <Box sx={{ pr: 2 }}>
                 <img src="../public/team.png" alt="" height={"50px"} width={"50px"} />
               </Box>
@@ -291,7 +268,7 @@ const About = () => {
             </Box>
           </Grid>
           <Grid xs={12} md={6} lg={3}>
-            <Box sx={{ backgroundColor: "whitesmoke", height: "170px", width: "300px", display: "flex", justifyContent: "center", alignItems: "center", }}>
+            <Box sx={{ height: { xs: "140px", lg: "170px" }, display: "flex", justifyContent: "center", alignItems: "center", }}>
               <Box sx={{ pr: 2 }}>
                 <img src="../public/team.png" alt="" height={"50px"} width={"50px"} />
 
@@ -307,7 +284,7 @@ const About = () => {
             </Box>
           </Grid>
           <Grid xs={12} md={6} lg={3}>
-            <Box sx={{ backgroundColor: "whitesmoke", height: "170px", width: "300px", display: "flex", justifyContent: "center", alignItems: "center", }}>
+            <Box sx={{ height: { xs: "140px", lg: "170px" }, display: "flex", justifyContent: "center", alignItems: "center", }}>
               <Box sx={{ pr: 2 }}>
                 <img src="../public/team.png" alt="" height={"50px"} width={"50px"} />
 
@@ -328,35 +305,31 @@ const About = () => {
 
 
 
-      <Box container sx={{ height: "90vh", width: "100%", display: "flex" }}>
-        <Box sx={{ height: "90vh", width: "50vw", }}>
-          <Box sx={{ flexGrow: 1, p: 2, ml: 12 }}>
-            <Typography variant='h5' sx={{ py: 2 }}>Development</Typography>
-            <BorderLinearProgress variant="determinate" value={80} />
-            <Typography variant='h5' sx={{ py: 2 }}>Marketing</Typography>
-            <BorderLinearProgress variant="determinate" value={70} />
-            <Typography variant='h5' sx={{ py: 2 }}>Consulting</Typography>
-            <BorderLinearProgress variant="determinate" value={60} />
-            <Typography variant='h5' sx={{ py: 2 }}>Presentations</Typography>
-            <BorderLinearProgress variant="determinate" value={90} />
-            <Typography variant='h5' sx={{ py: 2 }}>Branding</Typography>
-            <BorderLinearProgress variant="determinate" value={60} />
-            <Typography variant='h5' sx={{ py: 2 }}>Photography</Typography>
-            <BorderLinearProgress variant="determinate" value={40} />
-          </Box>
+      <Box container sx={{ height: "auto", width: "100%", display: "flex", pt: { xs: "2rem", lg: "1rem" }, flexDirection: { xs: "column", md: "column", lg: "row" }, mt: { xs: 3, md: 3, lg: 7 } }}>
+
+        <Box sx={{ flexGrow: 1, p: 2, pt: { xs: "1rem", lg: "1rem" }, height: "auto", width: { xs: "90vw", md: "92vw", lg: "20vw" }, ml: { xs: 2, md: 4, lg: 12 } }}>
+          <Typography variant='h5' sx={{ py: 2 }}>Development</Typography>
+          <BorderLinearProgress variant="determinate" value={80} />
+          <Typography variant='h5' sx={{ py: 2 }}>Marketing</Typography>
+          <BorderLinearProgress variant="determinate" value={70} />
+          <Typography variant='h5' sx={{ py: 2 }}>Consulting</Typography>
+          <BorderLinearProgress variant="determinate" value={60} />
+          <Typography variant='h5' sx={{ py: 2 }}>Presentations</Typography>
+          <BorderLinearProgress variant="determinate" value={90} />
+          <Typography variant='h5' sx={{ py: 2 }}>Branding</Typography>
+          <BorderLinearProgress variant="determinate" value={60} />
+          <Typography variant='h5' sx={{ py: 2 }}>Photography</Typography>
+          <BorderLinearProgress variant="determinate" value={40} />
         </Box>
-        <Box sx={{ height: "90vh", width: "50vw", p: "1rem", }}>
-          <Typography sx={{ pb: "1rem", pl: 5, fontWeight: 600, fontFamily: "sans-serif" }} variant='h3'>What We Do</Typography>
-          <Typography sx={{ px: 5 }} variant='body1'>At Blue Brain Technologies, we deliver excellence in terms of dedicated business - centric web solutions with an SEO point of view. We are specialists in customised web services that meet Web 2.0 standards and accommodate scopes for futuristic support. Online marketing with latest market trends make us one of the best internet marketing solution companies. "Our Devoted Experts (DE) are proficient to deliver quick and quality solutions. With a blend of experts with proven track record our web designers, network engineers, software developers, graphic designers, software testers and search engine optimisers makes it possible to offer our clients affordable - web solutions that are both innovative and highly influential". "At Blue Brain Technologies, our DEs comprises of skilled professionals having experience working with a variety business segments. This cross-industry experience gives us the exceptional ability to analyse client’s business requirements and determine how the client can best benefit from using our services and us as a Software Development Partner". All of our products exhibit an exceptional record of success and are backed by on the ball and professional team. We would be thrilled to help your company - small or large - deliver projects that better serve your requirements.
+        <Box sx={{
+          height: { xs: "auto", md: "auto", lg: "90vh" }, width: { xs: "90vw", md: "92vw", lg: "55vw" }
+          , p: "1rem", pr: { xs: "0px", lg: "3rem" }, pb: 8,
+        }}>
+          <Typography sx={{ pl: { xs: 1, lg: 5 }, my: { xs: 3, lg: 2 }, fontWeight: 600, fontFamily: "sans-serif" }} variant='h3'>What We Do</Typography>
+          <Typography sx={{ px: { xs: 0, lg: 5 } }} variant='body1'>At Blue Brain Technologies, we deliver excellence in terms of dedicated business - centric web solutions with an SEO point of view. We are specialists in customised web services that meet Web 2.0 standards and accommodate scopes for futuristic support. Online marketing with latest market trends make us one of the best internet marketing solution companies. "Our Devoted Experts (DE) are proficient to deliver quick and quality solutions. With a blend of experts with proven track record our web designers, network engineers, software developers, graphic designers, software testers and search engine optimisers makes it possible to offer our clients affordable - web solutions that are both innovative and highly influential". "At Blue Brain Technologies, our DEs comprises of skilled professionals having experience working with a variety business segments. This cross-industry experience gives us the exceptional ability to analyse client’s business requirements and determine how the client can best benefit from using our services and us as a Software Development Partner". All of our products exhibit an exceptional record of success and are backed by on the ball and professional team. We would be thrilled to help your company - small or large - deliver projects that better serve your requirements.
           </Typography>
         </Box>
       </Box >
-
-
-
-
-
-
     </>
   )
 }

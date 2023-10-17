@@ -15,7 +15,7 @@ const Footer = () => {
 
       <Box className="footer" sx={{ p: { xs: "2rem", lg: "3rem" }, height: "auto" }} >
 
-        <Stack direction={{ xs: "column", md: "row" }} >
+        <Stack direction={{ xs: "column", md: "row", }} >
           <Box pt={"15px"} flex={1}>
             <Typography ><img src="../logo.png" alt="logo" width={90} style={{ height: "5rem" }} /> </Typography>
             <Typography pt={2} sx={{ pr: { xs: 2, lg: 3 }, fontWeight: "20px", color: " rgb(240, 239, 239)" }}>

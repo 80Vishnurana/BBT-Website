@@ -4,8 +4,7 @@ import menu from '../Data/menu'
 import "../Button/button.css"
 import "./portfolio.css"
 import { Box, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
-import { NavLink } from 'react-router-dom'
-
+import Heading from '../Heading/Heading'
 
 
 const Cardstyle = styled(Card)`
@@ -31,35 +30,14 @@ const Portfolio = () => {
     setItem(updateItem)
 
   }
+  const heading = "Portfolio"
+  const subheading = "Portfolio"
 
   return (
     <>
-      <Box sx={{ backgroundColor: "black" }} >
-        <Box sx={{
-          backgroundImage: `url('https://cdn.pixabay.com/photo/2018/03/13/22/53/puzzle-3223941_1280.jpg')`,
-          backgroundColor: "black",
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          boxShadow: "inset 0 0 800px black",
-          backgroundPosition: 'center', display: "flex", alignItems: "center", justifyContent: 'center', height: "9rem", pl: "3rem ", mb: "2rem"
-        }}>
+      <Heading Title={heading} subTitle={subheading} />
 
 
-          <Box display={"flex"} sx={{
-            flexFlow: "column",
-          }}>
-            <Typography variant='h3' sx={{ color: "white" }}>
-              Portfolio
-            </Typography>
-
-            <Typography textAlign={"center"} fontSize={"25px"}>
-              <NavLink to="/" >Home</NavLink>   <span style={{ color: 'white', fontWeight: "600", fontSize: "25px" }}>Portfolio</span>
-            </Typography>
-          </Box>
-
-
-        </Box>
-      </Box>
       <Box height={"auto"} >
         <Box display="flex" flexWrap={"wrap"} justifyContent={"center"}
         >
@@ -95,6 +73,7 @@ const Portfolio = () => {
             return (
 
               <Cardstyle className='card' sx={{
+                borderRadius: 4,
                 ":hover": {
                   boxShadow: 8,
 

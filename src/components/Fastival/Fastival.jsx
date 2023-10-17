@@ -22,7 +22,7 @@ const Fastival = () => {
 
             <ScrollTrigger onEnter={() => setCounterStart(true)} onExit={() => setCounterStart(false)} >
 
-                <Grid container direction={"row"} sx={{ width: "100%", backgroundColor: "whitesmoke", height: "30vh", mt: 10, }}>
+                <Grid container direction={"row"} sx={{ width: "100%", backgroundColor: "whitesmoke", height: { xs: "auto", md: "auto", lg: "30vh" }, mt: 10, }}>
                     <Grid xs={12} md={6} lg={3}>
                         <Box sx={{ height: "170px", width: "300px", display: "flex", justifyContent: "center", alignItems: "center", }}>
                             <Box sx={{ pr: 2 }}>

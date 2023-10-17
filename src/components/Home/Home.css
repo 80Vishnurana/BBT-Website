@@ -31,6 +31,10 @@
 
     }
 
+    .carouselimg {
+        height: 15rem;
+    }
+
     .box-t {
         padding: 10px;
     }
@@ -81,7 +85,8 @@
 }
 
 .about {
-    background-color: #fff;
+    background-color: #fddcdc;
+    box-shadow: none;
 }
 
 .abouthead {
@@ -96,5 +101,15 @@
 .accbox {
     background-color: rgb(219, 218, 218);
     padding: 0px 5px 0px 5px;
+
+}
+
+.background {
+    background-image: url('../../../public/backgroundimg.jpg');
+    background-repeat: no-repeat;
+    position: fixed;
+
+    background-size: cover;
+    background-repeat: 'no-repeat';
 
 }

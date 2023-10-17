@@ -5,6 +5,7 @@ import "./Blog.css";
 import paginationdata from '../PaginationData/pagination'
 import PaginationButton from '../Pagination/PaginationButton';
 import { motion, AnimatePresence } from 'framer-motion'
+import Heading from '../Heading/Heading';
 
 
 
@@ -37,33 +38,15 @@ export const Blog = () => {
         setToggle(true)
         setTimeout(() => setToggle(false), 1000)
     }, [index])
+    const heading = "Blog"
+    const subheading = "Blog"
 
     return (
         <>
 
-            <Box sx={{
-                backgroundImage: `url('https://cdn.pixabay.com/photo/2018/03/13/22/53/puzzle-3223941_1280.jpg')`,
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                boxShadow: "inset 0 0 800px black",
-                backgroundPosition: 'center', display: "flex", alignItems: "center", justifyContent: 'center', height: "9rem", pl: "3rem ", mb: "2rem"
-            }}>
-                <Box display={"flex"} sx={{
 
-                    zIndex: "2",
-                    flexFlow: "column"
-                }}>
-                    <Typography variant='h3' sx={{ color: "white" }}>
-                        Blog
-                    </Typography>
+            <Heading Title={heading} subTitle={subheading} />
 
-                    <Typography textAlign={"center"} fontSize={"25px"}>
-                        <NavLink to="/" >Home</NavLink>   <span style={{ color: 'white', fontWeight: "600", fontSize: "25px" }}>Blog</span>
-                    </Typography>
-                </Box>
-
-
-            </Box>
             {/* Pagination/Current Data */}
             <div className="" style={{ minHeight: '540px' }} >
                 <AnimatePresence mode='wait'>

@@ -4,40 +4,16 @@ import { Box, Grid, TextField, Typography } from "@mui/material";
 import "animate.css";
 import { NavLink } from "react-router-dom";
 import { FormControl } from '@mui/material';
+import Heading from "../Heading/Heading";
 const Contact = () => {
+
+  const heading = "Contact Information"
 
   return (
     <>
 
-      <Box sx={{
-        backgroundImage: `url('https://cdn.pixabay.com/photo/2018/03/13/22/53/puzzle-3223941_1280.jpg')`,
-        backgroundColor: "black",
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        boxShadow: "inset 0 0 800px black",
-        backgroundPosition: 'center', display: "flex", alignItems: "center", justifyContent: 'center', height: "9rem", pl: "3rem ", mb: "2rem"
-      }}>
 
-        <Box
-          display={"flex"}
-          sx={{
-            flexFlow: "column",
-          }}
-        >
-          <Typography variant="h3" sx={{ color: "white", fontSize: { xs: "30px", lg: "40px" } }}>
-            Contact Information
-          </Typography>
-
-          <Typography textAlign={"center"} fontSize={"25px"}>
-            <NavLink to="/">Home</NavLink>{" "}
-            <span
-              style={{ color: "white", fontWeight: "600", fontSize: "25px" }}
-            >
-              Contact
-            </span>
-          </Typography>
-        </Box>
-      </Box>
+      <Heading Title={heading} />
 
 
       <Box>

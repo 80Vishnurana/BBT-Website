@@ -33,12 +33,16 @@ const Header = () => {
     <Box onClick={handleDrawerToogle} style={boxStyle} sx={{ textAlign: "center" }} className="navicon" >
       <ul className="Mobilenavigation-ul" >
 
-        <li>Home</li>
-        <li>About</li>
-        <li>Our Product</li>
-        <li>Our Services</li>
-        <li>Blog</li>
-        <li><a href="mailto:zainkeepscode@gmail.com">Contact</a></li>
+        <li><Link to="/" ><a href="">Home</a></Link></li>
+        <li>
+          <Link to="/about"><a href="">About</a></Link></li>
+        <li>
+          <Link to="/ourproduct"><a href="">Our Product</a></Link></li>
+        <li> <Link to="/services"> <a href="">Our Services</a></Link>
+
+        </li>
+        <li> <Link to="Blog"><a href="">Blog</a></Link></li>
+        <li><Link to="/contact"><a href="">Contact</a></Link></li>
       </ul>
 
     </Box>
@@ -51,7 +55,7 @@ const Header = () => {
         <div className="containerss">
           <div className="containers">
             <div className="header-cont" >
-              <ul className="header" style={{ display: "flex" }} >
+              <ul className="header" style={{ display: "flex", flexWrap: "wrap" }} >
                 <li><a href="tel:+91 9999600773"><i className="fa fa-phone"></i> (+91) 9999600773</a></li>
                 <span className="scle">|</span>
                 <li><a href="tel:+91 9999600883"><i className="fa fa-phone"></i> (+91) 9999600883</a></li>
@@ -88,32 +92,45 @@ const Header = () => {
             <ul className="navigation-ul menu" >
 
               <li>
-                <Link to="/" ><a href="/">Home</a></Link>
+                <Link to="/" ><a href="#">Home</a></Link>
               </li>
               <li><a>About</a>
                 <ul class="submenu">
-                  <li><Link to="/about"><a href="#">About Us</a></Link></li>
+                  <li style={{ cursor: "pointer" }}><Link to="/about"><a href="#">About Us</a></Link></li>
                   <li><Link to="/certificate"><a href="#">Certificates</a></Link></li>
                 </ul>
               </li>
-              <li><Link to="/ourproduct"><a href="">Our Product</a></Link></li>
-              <li><a  >Our Services</a>
+              <li style={{ cursor: "pointer" }}><a >Our Product</a>
+                <ul class="submenu">
+                  <li><Link to="/hospitalManagement"><a href="#">Hospital Management System</a></Link></li>
+                  <li><Link to="/Resturant-ERP"><a href="#">Restaurant ERP</a></Link></li>
+                  <li><Link to="/School-ERP"><a href="#">School ERP</a></Link></li>
+                  <li><Link to="/Storemanagement"><a href="#">Store Management System</a></Link></li>
+                  <li><Link to="/PQS-Management"><a href="#">POS Management System</a></Link></li>
+                  <li><Link to="/HR-Prayroll-ERP"><a href="#">HR & Payroll ERP</a></Link></li>
+                  <li><Link to="/Visitor-Management"><a href="#">Visitor Management System</a></Link></li>
+                  <li><Link to="/E-Commerce"><a href="#">E-Commerce Portal</a></Link></li>
+                  <li><Link to="/KIOSH-touch"><a href="#">KIOSK & Touch Screen</a></Link></li>
+                </ul></li>
+              <li style={{ cursor: "pointer" }} ><a  >Our Services</a>
                 <ul class="submenu">
                   <li><Link to="/OurServices/designing"><a href="#">Designing</a></Link></li>
                   <li><Link to="/OurServices/development"><a href="#">Development</a></Link></li>
                   <li><Link to="/OurServices/Business"><a href="#">Business & Planning</a></Link></li>
                   <li><Link to="/OurServices/online"><a href="#">Online Marketting</a></Link></li>
-                  <li><Link to="OurServices/Training"><a href="#">IT Training</a></Link></li>
-                  <li><Link><a href="#">Framework & Technology</a></Link></li>
+                  <li><Link to="/OurServices/Training"><a href="#">IT Training</a></Link></li>
+                  <li><Link to="/OurServices/Framework"><a href="#">Framework & Technology</a></Link></li>
                 </ul>
 
               </li>
 
-              <li><Link to="/portfolio"><a href="">Portfolio</a></Link> </li>
-              <li><Link to="/career"><a href="">Career</a></Link> </li>
-              <li><Link to="/blog"><a href="">Blog</a></Link> </li>
-              <li><Link to="/contact"><a href="">Contact</a></Link></li>
-              <li><GoogleIcon /></li>
+              <li style={{ cursor: "pointer" }}><Link to="/portfolio"><a href="">Portfolio</a></Link> </li>
+              <li
+
+                style={{ cursor: "pointer" }}><Link to="/career"><a href="">Career</a></Link> </li>
+              <li style={{ cursor: "pointer" }}><Link to="/blog"><a href="">Blog</a></Link> </li>
+              <li style={{ cursor: "pointer" }}><Link to="/contact"><a href="">Contact</a></Link></li>
+              <li style={{ cursor: "pointer" }}><GoogleIcon /></li>
             </ul>
             <IconButton color="primary" aria-label="open drwaer" edge="start" sx={{ mr: { xs: "3rem" }, display: { md: "none", } }} onClick={handleDrawerToogle} >
               <MenuIcon style={{ fontSize: "3.3rem", }} />

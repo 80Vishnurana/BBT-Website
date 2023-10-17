@@ -9,6 +9,7 @@ import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import Fastival from '../Fastival/Fastival';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -85,17 +86,23 @@ const styles = {
 
     },
   },
+
 };
+
+
 const Paperstyle = styled(Paper)`    
+
          :hover {
             background-image: url(https://media.istockphoto.com/id/1623894588/photo/graphic-designer.jpg?s=1024x1024&w=is&k=20&c=u2NE-wZk4GnItBUENG84mhL8k4WV6D_LpiiP3o__cdE=);
-            transform: scale(1.1);
+            transform: scale(1.02);
             backgroundSize:cover;
             backgroundRepeat:no-repeat;
             transition: transform 0.5s ease-in-out;
-            boxShadow: "inset 0 0 800px black",
+            // boxShadow: "inset 0 0 800px black",
           }    
-`
+          `
+
+
 
 function Home() {
 
@@ -110,13 +117,15 @@ function Home() {
 
 
 
+
+
       <Carousel style={{ width: "100%", backgroundImage: 'none' }}>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item className='carouselimg' interval={1000}>
 
 
           <img src="https://bluebraintech.com/assets/img/sliders/bg10.jpg" style={{ height: "30rem", width: "100%" }} />
           <Carousel.Caption>
-            <div className='heading-crousel'>
+            <div>
 
               <h2>Modernize IT Operation</h2>
 
@@ -128,25 +137,25 @@ function Home() {
 
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item className='carouselimg' interval={500}>
           <img src="https://img.freepik.com/free-photo/hand-near-laptop-that-expels-graphics-arrows_1232-287.jpg?w=740&t=st=1696066630~exp=1696067230~hmac=d6705d28d5eb1179f66761210956e71858f90b9b9018e46e90cc507b940f1ce0" style={{ width: "100%", height: "30rem", }} />
           <Carousel.Caption>
-            <div className='heading-crousel'>
+            <div>
               <h1 >We Build Innovative, reliable and cost effective idea</h1>
 
               <p> We provide end to end solution for business. Among a plethora of services, design and development, tailor made applications, ERP, CRM, MOBILE APP, business-to-business applications, business-to-client applications, website are a few that we offer.</p>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className='carouselimg'>
 
           <img src="https://img.freepik.com/free-photo/businessman-using-digital-tablet_53876-108317.jpg?w=996&t=st=1696917742~exp=1696918342~hmac=ef9770ae7842f3a74e5d40e51a525475f45745cd5083a7ccf1c9a80e1d51df85" alt="#" style={{ width: "100%", height: "30rem", }} />
           <Carousel.Caption>
-            <div className="heading-crousel">
-              <h1>Redefine your business with digital Solution</h1>
-              <p>We are used latest technology which help to clients with industry requirement. We provide business solutions as service over the internet and on dedicated network with delivery on demand. We ensure security of data.</p>
 
-            </div>
+            <h1>Redefine your business with digital Solution</h1>
+            <p>We are used latest technology which help to clients with industry requirement. We provide business solutions as service over the internet and on dedicated network with delivery on demand. We ensure security of data.</p>
+
+
 
           </Carousel.Caption>
         </Carousel.Item>
@@ -178,12 +187,12 @@ function Home() {
       <Box className="about" sx={{ width: "100vw", textAlign: "center" }}>
 
         <Box className="abouthead" bgcolor={"rgb(255, 255, 255)"} pl={5}>
-          <Typography variant='h4' textAlign={"start"} sx={{ paddingTop: "20px", bgcolor: "rgb(255, 255, 255)" }}> About Us </Typography>
+          <Typography variant='h4' textAlign={"start"} sx={{ paddingTop: "5rem", }}> About Us </Typography>
           <Typography variant='h6' textAlign={"start"}>A complete IT solution company packed with innovative and compatible ideas.</Typography>
 
         </Box>
-        <Box className="box" width="100vw" sx={{ height: "auto", display: "flex", paddingBottom: "5rem" }}>
-          <Box className="box-t" sx={{ width: { xs: "23rem", lg: "50rem" } }} pl={"2rem"} pt={"6rem"} >
+        <Box className="box" width="100vw" sx={{ height: "auto", display: "flex", }}>
+          <Box className="box-t" sx={{ width: { xs: "23rem", lg: "50rem" } }} pl={"2rem"} pt={"3rem"} >
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
               <Box className='accodian'>
                 <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -222,26 +231,30 @@ function Home() {
             </Accordion>
             {/* <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
               <Box className='accodian'>
-                <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
-                  <Typography>Our Experties</Typography>
-
+              <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
+                <Typography>Our Experties</Typography>
+                
                 </AccordionSummary>
                 <AccordionDetails sx={{ p: "0px" }}>
                   <Typography bgcolor={'gray'}>
-                    Architectures (Microsoft.NET , JAVA/J2EE, PHP , Android) Web Servers(Microsoft IIS, Apache Server, Tomcat, JBoss, Sun Server) Server Languages(ASP, Servlets, Java Server Pages (JSP), CGI/Perl, PHP) Databases(MS SQL Server, MYSQL , Oracle), Frameworks ( MVVM, Laravel, .NET CORE, Spring, Hibernate ).
+                  Architectures (Microsoft.NET , JAVA/J2EE, PHP , Android) Web Servers(Microsoft IIS, Apache Server, Tomcat, JBoss, Sun Server) Server Languages(ASP, Servlets, Java Server Pages (JSP), CGI/Perl, PHP) Databases(MS SQL Server, MYSQL , Oracle), Frameworks ( MVVM, Laravel, .NET CORE, Spring, Hibernate ).
                   </Typography>
-                </AccordionDetails>
-              </Box>
-            </Accordion> */}
+                  </AccordionDetails>
+                  </Box>
+                </Accordion> */}
           </Box>
 
-          <Box className="box-img" sx={{ width: { xs: "100vw", lg: "50rem" }, height: "auto", p: { xs: "1.5rem", lg: "3rem" }, mt: { xs: "0px", lg: "3rem" } }}>
-            <img src="https://bluebraintech.com/assets/img/about_us.jpg" alt="" style={{ width: "100%", height: "100%", boxShadow: "10px 10px 4px black" }} />
+          <Box className="box-img" sx={{ width: { xs: "100vw", lg: "45rem" }, height: "24rem", p: { xs: "1.5rem", lg: "3rem" } }}>
+            <img src="../public/aboutpic.jpg" alt="" style={{ width: "100%", height: "100%", boxShadow: "10px 10px 4px black" }} />
           </Box>
 
         </Box>
+
+      </Box>
+      <Box className="background" sx={{ zIndex: -1, backgroundColor: "green", height: "100vh", width: "100%", py: { xs: 4, lg: 0 } }}>
       </Box>
       <Box sx={{ mt: 6, mx: { xs: 3, lg: 18 }, }}>
+        {/* <Box sx={{ bgcolor: "transparent" }}> */}
         <Typography variant='h3' fontSize={"37px"} sx={{ pb: { xs: 2, lg: 3 } }} >
           Our Services
         </Typography>
@@ -250,221 +263,77 @@ function Home() {
         </Typography>
       </Box>
       <Grid container justifyContent={"flex-start"} sx={{ px: { xs: 1, lg: 16 } }} >
-        <Grid xs={12} md={6} lg={4} sx={{ mt: 6, }}  >
+        <Grid xs={12} md={6} lg={4} sx={{ mt: { xs: 3, md: 3, lg: 6 } }}  >
 
-          <Paperstyle className='cards' sx={{ m: 2, width: "21rem", boxShadow: 4, }}>
-            <Box p={3}>
+          <Paperstyle className='cards' sx={{ m: 2, width: "19rem", boxShadow: "5px 5px 5px gray", border: "1px solid gray", borderTopLeftRadius: "5rem", mt: { xs: 5, lg: 0 }, borderBottomRightRadius: "5rem" }}>
+            <Box p={2}>
               <Box
                 sx={{ py: { xs: 2, lg: 4 } }}
               >
                 <LaptopMacIcon sx={{ fontSize: "4rem" }} />
               </Box>
-              <Typography variant='h4' pb={2} fontSize={"28px"} fontWeight={600}>
-                Website Design
+              <Typography variant='h4' pb={2} fontSize={"22px"} fontWeight={600}>
+                Application Design & Developing
               </Typography>
               <Typography pt={2} >
-                At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
+                Software Design & Development is a term meaning basically computer programming of maintaining the source codes & used reusability. We conceptualize strategically.
               </Typography>
-              <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
+              <NavLink to="/OurServices/designing">
+                <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "20px", py: "5px" }}>Read Me</Button>
+              </NavLink>
             </Box>
           </Paperstyle>
         </Grid>
-        <Grid xs={12} md={6} lg={4} sx={{ mt: 6, }}  >
+        <Grid xs={12} md={6} lg={4} sx={{ mt: { xs: 0, md: 3, lg: 6 } }}  >
 
-          <Paperstyle className='cards' sx={{ m: 2, width: "21rem", boxShadow: 4 }}>
-            <Box p={3}>
+          <Paperstyle className='cards' sx={{ m: 2, width: "19rem", boxShadow: "5px 5px 5px gray", border: "1px solid gray", borderTopLeftRadius: "5rem", borderBottomRightRadius: "5rem" }}>
+            <Box p={2}>
               <Box
                 sx={{ py: { xs: 2, lg: 4 } }}
               >
                 <LaptopMacIcon sx={{ fontSize: "4rem" }} />
               </Box>
-              <Typography variant='h4' pb={2} fontSize={"28px"} fontWeight={600}>
-                Website Design
+              <Typography variant='h4' pb={2} fontSize={"22px"} fontWeight={600}>
+
+                IT Consulting
               </Typography>
               <Typography pt={2}>
-                At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
+                Our veteran experts will help you get better technology, architecture, satisfied output and refined ideas. Define & developed algorithm which helps to reliable productivity.
               </Typography>
-              <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
+              <NavLink to="/BusinessConsulting">
+                <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "20px", py: "5px" }}>Read Me</Button>
+              </NavLink>
             </Box>
           </Paperstyle>
         </Grid>
-        <Grid xs={12} md={6} lg={4} sx={{ mt: 6, }}  >
+        <Grid xs={12} md={6} lg={4} sx={{ mt: { xs: 0, md: 3, lg: 6 } }}  >
 
-          <Paperstyle className='cards' sx={{ m: 2, width: "21rem", boxShadow: 4 }}>
+          <Paperstyle className='cards' sx={{ m: 2, width: "19rem", boxShadow: "5px 5px 5px gray", border: "1px solid gray", borderTopLeftRadius: "5rem", borderBottomRightRadius: "5rem" }}>
             <Box p={3}>
               <Box
-                sx={{ py: { xs: 2, lg: 4 } }}
+                sx={{ py: { xs: 2, lg: 3 } }}
               >
                 <LaptopMacIcon sx={{ fontSize: "4rem" }} />
               </Box>
-              <Typography variant='h4' pb={2} fontSize={"28px"} fontWeight={600}>
-                Website Design
-              </Typography>
-              <Typography pt={2}>
-                At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
-              </Typography>
-              <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
-            </Box>
-          </Paperstyle>
-        </Grid>
-        <Grid xs={12} md={6} lg={4} sx={{ mt: 1, mb: 6 }}   >
+              <Typography variant='h4' pb={1} fontSize={"22px"} fontWeight={600}>
+                Cloud
+                Computing
 
-          <Paperstyle className='cards' sx={{ m: 2, width: "21rem", boxShadow: 4 }}>
-            <Box p={3}>
-              <Box
-                sx={{ py: { xs: 2, lg: 4 } }}
-              >
-                <LaptopMacIcon sx={{ fontSize: "4rem" }} />
-              </Box>
-              <Typography variant='h4' pb={2} fontSize={"28px"} fontWeight={600}>
-                Website Design
               </Typography>
               <Typography pt={2}>
-                At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
+                We provide business solutions as service (SAS) over the internet and on dedicated network with delivery on demand. We ensure security of data.
               </Typography>
-              <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
-            </Box>
-          </Paperstyle>
-        </Grid>
-        <Grid xs={12} md={6} lg={4} sx={{ mt: 1, mb: 6 }}  >
-
-          <Paperstyle className='cards' sx={{ m: 2, width: "21rem", boxShadow: 4 }}>
-            <Box p={3}>
-              <Box
-                sx={{ py: { xs: 2, lg: 4 } }}
-              >
-                <LaptopMacIcon sx={{ fontSize: "4rem" }} />
-              </Box>
-              <Typography variant='h4' pb={2} fontSize={"28px"} fontWeight={600}>
-                Website Design
-              </Typography>
-              <Typography pt={2}>
-                At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
-              </Typography>
-              <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
+              <NavLink to="/BusinessConsulting">
+                <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "20px", py: "5px" }}>Read Me</Button>
+              </NavLink>
             </Box>
           </Paperstyle>
         </Grid>
       </Grid>
-      {/* ..................................................OUR Feature.................................. */}
-      <Box sx={{ mx: { xs: "1rem", lg: "9rem" }, }} >
-        <Typography variant='h4'>Our Features</Typography>
-        <Typography pb={5} pt={2}>It's what we do, and we know how to make it work for our clients and organization. We are using latest technology working in cooperation with the customers. We are committed to Quality & Security is Paramount.</Typography>
-
-        <Grid container>
-          <Grid xs={12} md={6} lg={4} sx={{ borderRight: { xs: "none", md: "none", lg: "1px solid skyblue" } }}>
-            <Box display={"flex"} pb={"3rem"} pr={2} p={2}>
-              <Box pr={4}>
-                <img height={"50px"} width={"50px"} src="../public/trend.png" alt="" />
-              </Box>
-              <Box>
-                <Typography variant='h4' fontSize={"28px"} pb={1}>
-                  Business Growth
-                </Typography>
-                <Typography variant="body2">
-                  Our performance-oriented culture with responsible approach has taken us where we are today. We have experienced professionals to develop with complex business logic dealing with large amounts of data and transactions.
-                </Typography>
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={12} md={6} lg={4} sx={{ borderRight: { xs: "none", md: "none", lg: "1px solid skyblue" } }} borderRight={"1px solid skyblue"}>
-            <Box display={"flex"} pb={3} pr={2} p={2}>
-              <Box pr={4}>
-                <img height={"50px"} width={"50px"} src="https://bluebraintech.com/assets/img/features-icon/features-icon02.png" alt="" />
-              </Box>
-              <Box>
-                <Typography variant='h4' fontSize={"28px"} pb={1}>
-
-                  Sustainability
-                </Typography>
-                <Typography variant="body2">
-                  The more number of times a customer hits on your link, the more revenue you get set to generate from it. Therefore, this is where our role comes in.
-                </Typography>
-
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={12} md={6} lg={4}>
-            <Box display={"flex"} pb={3} pr={2} p={2}>
-              <Box pr={4}>
-                <img height={"50px"} width={"50px"} src="../public/performance.png" alt="" />
-              </Box>
-              <Box>
-                <Typography variant='h4' fontSize={"28px"} pb={1}>
-
-                  Performance
-                </Typography>
-                <Typography variant="body2">
-                  Provide exponentially product, the demand for high-quality development resources greatly outnumbers the supply, leading to increased domestic rates that just aren’t affordable.
-                </Typography>
-
-              </Box>
-            </Box>
-          </Grid>
-          <hr />
-          <Grid xs={12} md={6} lg={4} sx={{ borderTop: { xs: "none", md: "none", lg: "1px solid skyblue" }, borderRight: { xs: "none", md: "none", lg: "1px solid skyblue" } }}    >
-            <Box display={"flex"} pb={3} pr={3} p={2}>
-              <Box pr={4}>
-                <img height={"50px"} width={"50px"} src="../public/organization.png" alt="" />
-              </Box>
-              <Box>
-                <Typography variant='h4' fontSize={"28px"} pb={1}>
-
-                  Organization
-                </Typography>
-                <Typography variant="body2">
-                  We are able to provide solution of every organization But our general aim is to provide solutions that are tailored to the requirements of our clients. Our extended experience gives opportunity.
-                </Typography>
-
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={12} md={6} lg={4} sx={{ borderTop: { xs: "none", md: "none", lg: "1px solid skyblue" }, borderRight: { xs: "none", md: "none", lg: "1px solid skyblue" } }}>
-            <Box display={"flex"} pb={3} pr={2} p={2}
-            >
-              <Box pr={4}>
-                <img height={"50px"} width={"50px"} src="../public/organization.png" alt="" />
-              </Box>
-              <Box>
-                <Typography variant='h4' fontSize={"28px"} pb={1}>
-
-                  24/7 Support
-                </Typography>
-                <Typography variant="body2">
-                  Support when you need. We specialize in providing support to individual customers with reliable and cost-effective solutions. We provide technical as well as functional support to address your issues on call/ online.
-                </Typography>
-
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={12} md={6} lg={4} sx={{ borderTop: { xs: "none", md: "none", lg: "1px solid skyblue" } }}>
-            <Box display={"flex"} pb={"3rem"} pr={2} p={2}>
-              <Box pr={4}>
-                <img height={"50px"} width={"50px"} src="../public/coffee.png" alt="" />
-              </Box>
-              <Box>
-                <Typography variant='h4' fontSize={"28px"} pb={1}>
-                  Mobile Integration
-                </Typography>
-                <Typography variant="body2">
-                  Smartphones enables new mobile services and business models to be combined. Product is very well connected with the palm which facilities the management of any organization to view important reports and provide approval of the product.
-                </Typography>
-
-              </Box>
-            </Box>
-          </Grid>
-
-        </Grid>
-      </Box>
-
       <Box>
         <Fastival />
       </Box>
-
-
-
-
-    </Fragment>
+    </Fragment >
   )
 }
 
