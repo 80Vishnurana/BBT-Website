@@ -23,8 +23,8 @@ const POSManagementSystem = () => {
                 </Box>
             </Box>
             <Box sx={{ height: "auto", width: "100%", py: { xs: 8, lg: 12 }, px: { xs: 2, md: 3, lg: 25, }, }}>
-                <Box sx={{ height: "50vh", width: "100%", pl: { xs: 0, lg: 3 } }}>
-                    <img src="../../public/laptop.jpg" alt="" height="100%" width="100%" />
+                <Box sx={{ height: { xs: "40vh", lg: "60vh" }, width: "100%", pl: { xs: 0, lg: 3 } }} >
+                    <img style={{ boxShadow: "5px 5px 15px gray" }} src="../../public/PQS.jpg" alt="" height="100%" width="100%" />
                 </Box>
                 <Box sx={{ px: { xs: 0, md: 1, lg: 3 }, py: { xs: 1, md: 2, lg: 4 } }}>
                     <Typography variant='body2' sx={{ fontWeight: "bold", fontSize: { xs: "20px", lg: "30px" }, pt: "20px", fontFamily: "sans-serif" }}>

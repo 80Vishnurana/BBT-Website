@@ -7,18 +7,17 @@ import GoogleIcon from '@mui/icons-material/Google';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 import { Link, Outlet } from "react-router-dom";
-
-
-
-
 
 const Header = () => {
   const [MobileOpen, setMobileOpen] = useState(false);
 
 
+
   const boxStyle = {
-    width: '300px',
+    width: '200px',
     height: '200px',
     overflow: 'auto',
     border: '1px solid #ccc',
@@ -30,18 +29,25 @@ const Header = () => {
     setMobileOpen(!MobileOpen)
   }
   const drawer = (
-    <Box onClick={handleDrawerToogle} style={boxStyle} sx={{ textAlign: "center" }} className="navicon" >
+    <Box onClick={handleDrawerToogle} style={boxStyle} className="navicon" >
       <ul className="Mobilenavigation-ul" >
 
         <li><Link to="/" ><a href="">Home</a></Link></li>
         <li>
           <Link to="/about"><a href="">About</a></Link></li>
         <li>
-          <Link to="/ourproduct"><a href="">Our Product</a></Link></li>
+
+          <DropdownButton id="dropdown-basic-button" title="Our Product">
+            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          </DropdownButton>
+
+        </li>
         <li> <Link to="/services"> <a href="">Our Services</a></Link>
 
         </li>
-        <li> <Link to="Blog"><a href="">Blog</a></Link></li>
+        <li> <Link to="/Blog"><a href="">Blog</a></Link></li>
         <li><Link to="/contact"><a href="">Contact</a></Link></li>
       </ul>
 
@@ -91,16 +97,16 @@ const Header = () => {
 
             <ul className="navigation-ul menu" >
 
-              <li>
+              <li className="active">
                 <Link to="/" ><a href="#">Home</a></Link>
               </li>
               <li><a>About</a>
                 <ul class="submenu">
-                  <li style={{ cursor: "pointer" }}><Link to="/about"><a href="#">About Us</a></Link></li>
+                  <li style={{ cursor: "pointer", color: "darkblue" }}><Link to="/about"><a href="#">About Us</a></Link></li>
                   <li><Link to="/certificate"><a href="#">Certificates</a></Link></li>
                 </ul>
               </li>
-              <li style={{ cursor: "pointer" }}><a >Our Product</a>
+              <li style={{ cursor: "pointer", color: "darkblue", "&:hover": { border: "1px solid red" } }}><a >Our Product</a>
                 <ul class="submenu">
                   <li><Link to="/hospitalManagement"><a href="#">Hospital Management System</a></Link></li>
                   <li><Link to="/Resturant-ERP"><a href="#">Restaurant ERP</a></Link></li>
@@ -112,7 +118,7 @@ const Header = () => {
                   <li><Link to="/E-Commerce"><a href="#">E-Commerce Portal</a></Link></li>
                   <li><Link to="/KIOSH-touch"><a href="#">KIOSK & Touch Screen</a></Link></li>
                 </ul></li>
-              <li style={{ cursor: "pointer" }} ><a  >Our Services</a>
+              <li style={{ cursor: "pointer", color: "darkblue" }} ><a  >Our Services</a>
                 <ul class="submenu">
                   <li><Link to="/OurServices/designing"><a href="#">Designing</a></Link></li>
                   <li><Link to="/OurServices/development"><a href="#">Development</a></Link></li>
@@ -124,7 +130,7 @@ const Header = () => {
 
               </li>
 
-              <li style={{ cursor: "pointer" }}><Link to="/portfolio"><a href="">Portfolio</a></Link> </li>
+              <li style={{ cursor: "pointer", color: "blue" }}><Link to="/portfolio"><a href="">Portfolio</a></Link> </li>
               <li
 
                 style={{ cursor: "pointer" }}><Link to="/career"><a href="">Career</a></Link> </li>

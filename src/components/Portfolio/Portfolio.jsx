@@ -3,6 +3,7 @@ import styled from '@emotion/styled'
 import menu from '../Data/menu'
 import "../Button/button.css"
 import "./portfolio.css"
+import { motion } from "framer-motion";
 import { Box, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import Heading from '../Heading/Heading'
 
@@ -64,47 +65,52 @@ const Portfolio = () => {
 
         </Box>
       </Box>
-      <Box sx={{ m: "3rem", display: "flex", flexWrap: "wrap" }}>
+      <motion.div layout>
+        <Box sx={{ m: "3rem", display: "flex", flexWrap: "wrap" }}>
 
-        {
-          Item.map((ele) => {
-            const { id, Name, img, description } = ele
+          {
+            Item.map((ele) => {
+              const { id, Name, img, description } = ele
 
-            return (
-
-              <Cardstyle className='card' sx={{
-                borderRadius: 4,
-                ":hover": {
-                  boxShadow: 8,
-
-
-                }, maxWidth: 280, height: "26.6rem", margin: 'auto', mb: "4rem", boxShadow: "4", py: "15px"
-              }}>
-
-                <CardMedia
-                  sx={{ height: 120 }}
-                  image="../../../public/portfolio.png"
-                  title="green iguana"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h6" component="div">
-                    {Name}
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {description}
-                  </Typography>
-                </CardContent>
-                <CardActions sx={{ justifyContent: "center" }}>
-                  <Button size="small" variant="contained" >View Website</Button>
-                </CardActions>
-
-              </Cardstyle>
-            )
-          })
-        }
+              return (
+                <Cardstyle className='card' sx={{
+                  borderRadius: 4,
+                  ":hover": {
+                    boxShadow: 8,
 
 
-      </Box>
+                  }, maxWidth: 280, height: "26.6rem", margin: 'auto', mb: "4rem", boxShadow: "4", py: "15px"
+                }}>
+                  <motion.div layout>
+                    <motion.div layout>
+                      <CardMedia
+
+                        sx={{ height: 120 }}
+                        image="../../../public/portfolio.png"
+                        title="green iguana"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                          {Name}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          {description}
+                        </Typography>
+                      </CardContent>
+                      <CardActions sx={{ justifyContent: "center" }}>
+                        <Button size="small" variant="contained" >View Website</Button>
+                      </CardActions>
+                    </motion.div>
+
+                  </motion.div>
+                </Cardstyle>
+              )
+            })
+          }
+
+
+        </Box>
+      </motion.div>
 
 
     </>

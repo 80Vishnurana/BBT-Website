@@ -1,10 +1,10 @@
 import { Box, Paper, Typography } from '@mui/material'
 import React from 'react'
-import React from 'react'
+
 import Heading from '../Heading/Heading'
 
 const MobileTraning = () => {
-    const heading = " Business & Planning Services"
+    const heading = "IT Training Services"
     const subheading = "Our Services"
     return (
         <>
@@ -13,16 +13,17 @@ const MobileTraning = () => {
                 <Box sx={{ px: { xs: 0, md: 1, lg: 5 }, py: { xs: 1, md: 2, lg: 4 }, display: "flex", flexDirection: { xs: "column", lg: "row" }, }}>
                     <Box sx={{ pr: 6, pb: 2, }}>
                         <Typography variant='h4' sx={{ py: 2, fontWeight: "bold", fontSize: { xs: "25px", lg: "30px" } }} >
-                            Website Design
+                            Mobile App Training
+                            <hr style={{ width: "20rem", border: "2px solid darkblue" }} />
                         </Typography>
                         <Typography variant="body1" sx={{ pb: 2, pt: 1 }}>
-                            At Blue Brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business and it should be designed properly according to the client’s vision as it is a quintessential part of your company. We design your website with superlative projects plan after studying and analyzing your business requirement. As per the demand, we provide affordable cum creative work to let your business grows at par. We have a qualified bunch of experienced website designers who perfectly understand the need and perception for the website and create it accordingly with the entire knowledge of designing tool and come up with a quality result to boost your business.</Typography>
+                            In today’s world mobile phone have become as important as wallet and purse in everyday life and development in this technology take places immediately and moving very fast. Mobile App Development training is the key to enter in IT industries whoever dealing with the mobile software functionality.</Typography>
                         <Typography variant="body1" sx={{ py: 2 }}>
-                            A responsive website is a key to uplift the most difficult plight into a better state and benefits your company in multiple ways.
+                            At Blue Brain Tech, we provide you a service of Mobile Application Training where you can learn how to develop an application for Android and IOS system. Here our best Mobile App Developers gives you the training and answer your every question. We provide you an environment where you can develop your own app before getting hired by any IT Industry and this experience hold up you career high as Mobile App Developer.
                         </Typography>
 
                     </Box>
-                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
+                    <Box pl={1} sx={{ pt: { xs: 3, lg: 10 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "150vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
                     </Box>
                 </Box>
             </Box>
@@ -35,8 +36,9 @@ const MobileTraning = () => {
                 <Typography>
                     <img height="40px" width="40px" src="../public/hand.png" alt="" />
                 </Typography>
-                <Typography variant='h5' sx={{ fontWeight: "600", fontFamily: "sans-serif", pb: 3 }}>
-                    Being a professional website designer, we whip up your company with several benefits:
+                <Typography variant='h6' sx={{ fontWeight: "600", fontFamily: "sans-serif", pb: 3 }}>
+
+                    Try us to be a Mobile App Developer with our vast and professional training:
                 </Typography></Box>
 
             <Box display={"flex"} sx={{ px: { xs: 2, lg: 12 }, py: { xs: 8, lg: 12 }, flexDirection: { xs: "column", lg: "row" }, backgroundColor: "rgb(236, 240, 247)", }}>
@@ -53,9 +55,9 @@ const MobileTraning = () => {
                                     <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                                 </Box>
                                 <Box>
-                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>First Impression always last long
+                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Better Job opportunities
                                     </Typography>
-                                    <Typography sx={{ fontFamily: "sans-serif" }}>A website designed by us provide a look that flatter your visitors and give them a reason to explore more. A perfect designed website leaves an impression with high quality experience to your visitors and lead to more verbal referral and new visitors to your website.
+                                    <Typography sx={{ fontFamily: "sans-serif" }}>Growing number of internet users and consequent hike in mobile world have resulted the higher demand of professional and qualified App developers in India and out of India as well. As per your qualification and experience you chose your relevant field on a demanding salary.
 
 
                                     </Typography>
@@ -68,9 +70,9 @@ const MobileTraning = () => {
                                     <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                                 </Box>
                                 <Box>
-                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Never underestimate your competitors
+                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Be an Entrepreneur
                                     </Typography>
-                                    <Typography sx={{ fontFamily: "sans-serif" }}>Nowadays there are almost every company which assist their business online and they all have a website to control it. We provide you a good, professional and responsive website that has potential to compete with your competitors and achieve a good response form your customers. We provide you a website equipped with latest trends and technology in order to keep up with your competitors.
+                                    <Typography sx={{ fontFamily: "sans-serif" }}>Enter in a Mobile App Development section with thousands of new innovative ideas you can be an entrepreneur and start your own company with service of Mobile Application development. It will take a while to get return on your investment. By investing your ideas in a right direction you will earn a lot.
                                     </Typography>
 
                                 </Box>
@@ -95,10 +97,9 @@ const MobileTraning = () => {
                                 <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                             </Box>
                             <Box>
-                                <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Built up trust with Audience
+                                <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Higher Engagement
                                 </Typography>
-                                <Typography sx={{ fontFamily: "sans-serif" }}>If your website is poorly designed or have outdates information on it, people easily get distracted form your website and have trust issues.
-                                    A website with latest technology and professional look equipped with updated information build trust with your audience so they remain on your website. Regularity of visitors on site helps to create more opportunities for your business to capture those leads.
+                                <Typography sx={{ fontFamily: "sans-serif" }}> The greatest flexibility in Mobile App training is the ability they give the employees to complete the training whenever they want. This allow them to resume their training in their leisure time or being at home or whenever they feel so. This will increase their chances of engagement with training material and set them free with time bounty schedule.
                                 </Typography>
 
                             </Box>
@@ -109,9 +110,9 @@ const MobileTraning = () => {
                                 <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                             </Box>
                             <Box>
-                                <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Whip up your ranking in Search Engine
+                                <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Increase Employees Initiative
                                 </Typography>
-                                <Typography sx={{ fontFamily: "sans-serif" }}>A niche content and code on website helps your website to rank on any search engine like Google. A good quality Web design elements are directly effects on SEO to improve the visibility of website on search result.
+                                <Typography sx={{ fontFamily: "sans-serif" }}> Mobile Application training leads you to the edge of the interest in learning and broaden their knowledge. Trainee get their knowledge what they required, and after that it will be upon them to how they increase their learning. They will be an employee under any company or be a knowledge provider and built others like him/her.
                                 </Typography>
 
                             </Box>

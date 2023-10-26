@@ -3,17 +3,17 @@ import { Box, Grid, Paper, Typography } from '@mui/material'
 import Heading from '../Heading/Heading'
 
 function WebApplication() {
-    const heading = "Development Servicesv"
+    const heading = "Development Services"
     const subheading = "Our Services"
     return (
         <>
             <Heading Title={heading} subTitle={subheading} />
             <Box sx={{ px: { xs: 2, md: 3, lg: 10, }, }} >
                 <Box sx={{ px: { xs: 0, md: 1, lg: 5 }, py: { xs: 1, md: 2, lg: 4 }, display: "flex", flexDirection: { xs: "column", lg: "row" }, }}>
-                    <Box sx={{ pr: 6, pb: 2, }}>
-                        <Typography variant='h4' sx={{ py: 2, fontWeight: "bold", fontSize: { xs: "25px", lg: "40px" } }} >
+                    <Box sx={{ pr: 6, pb: 10, }}>
+                        <Typography variant='h4' sx={{ py: 2, fontWeight: "bold", fontSize: { xs: "25px", lg: "35px" } }} >
                             Web Application Development
-                            <hr style={{ width: "25rem", border: "2px solid darkblue" }} />
+                            <hr style={{ width: "33rem", border: "2px solid darkblue" }} />
                         </Typography>
                         <Typography variant="body1" sx={{ pb: 2, pt: 1 }}>
 
@@ -23,7 +23,7 @@ function WebApplication() {
 
 
                     </Box>
-                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "350vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
+                    <Box pl={1} sx={{ pt: { xs: 3, lg: 13 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "350vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="../public/webapplication.jpg" alt="" height={"100%"} width={"100%"} />
                     </Box>
                 </Box>
             </Box>
@@ -39,7 +39,7 @@ function WebApplication() {
 
             <Box display={"flex"} sx={{ px: { xs: 2, lg: 12 }, backgroundColor: "rgb(236, 240, 247)", py: 12 }}>
                 <Box sx={{ height: "52vh", width: "120%" }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/webmaintenance.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
 
 
@@ -127,7 +127,7 @@ function WebApplication() {
                     </Box>
                 </Box>
                 <Box sx={{ height: "58vh", width: "90%" }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/websave.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
             </Box>
 
@@ -140,7 +140,7 @@ function WebApplication() {
                 py: 12
             }}>
                 <Box sx={{ height: "45vh", width: "80%" }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/webass.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
                 <Box>
                     <Box sx={{ ml: 5 }}>

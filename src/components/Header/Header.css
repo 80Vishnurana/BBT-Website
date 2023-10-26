@@ -126,7 +126,7 @@
   scroll-behavior: smooth;
   scroll-snap-type: mandatory;
   transition: all 2ms ease-in-out;
-  width: 40vw;
+  width: 10vw;
   scroll-behavior: auto;
   box-sizing: border-box;
   background-color: rgb(235, 234, 234);
@@ -134,6 +134,15 @@
 
 .navicon ul li {
   list-style: none;
+}
+
+.navigation-ul li a :hover {
+  border-bottom: 2px solid darkblue;
+}
+
+.navigation-ul li.active a {
+
+  border-bottom: 2px solid darkblue;
 }
 
 
@@ -231,7 +240,21 @@
 
 }
 
-/* .menu li a :hover {
-  background-color: skyblue;
+.menu a :hover {
+  border-bottom: "2px solid red";
 
-} */
+}
+
+.navicon ul li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+.navicon ul li a {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+}

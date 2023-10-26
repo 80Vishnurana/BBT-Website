@@ -3,17 +3,36 @@
 }
 
 .red a {
-    color: rgb(240, 239, 239)
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+}
+
+.red a :hover {
+    color: blue;
 }
 
 .footer {
-    background-color: darkblue;
+    background-color: #302d2d;
+
 
 }
 
-@media only screen and (min-width: 300px) and (max-width:600px) {}
+.arrow :hover {
+    font-size: "50px";
+}
 
-.footer p :hover {
+.fa a :hover {
+    color: blue;
+}
+
+.email :hover {
+    color: blue;
+}
+
+
+/* @media only screen and (min-width: 300px) and (max-width:600px) {} */
+
+/* .footer p :hover {
     text-decoration: none;
 
-}
+} */

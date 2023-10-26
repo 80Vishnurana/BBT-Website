@@ -18,12 +18,12 @@ const Heading = (props) => {
                 <Box display={"flex"} sx={{
                     flexFlow: "column"
                 }}>
-                    <Typography variant='h3' sx={{ color: "white", fontSize: { xs: "30px", lg: "40px" } }}>
+                    <Typography variant='h3' sx={{ color: "white", fontSize: { xs: "30px", lg: "40px" }, fontWeight: 600 }}>
                         {datatheading}
                     </Typography>
 
                     <Typography textAlign={"center"} fontSize={"25px"}>
-                        <NavLink to="/" >Home</NavLink>   <span style={{ color: 'white', fontWeight: "600", fontSize: "23px" }}>{datasubTitle}</span>
+                        <NavLink to="/"  >Home</NavLink>   <span style={{ color: 'white', fontWeight: "600", fontSize: "23px" }}>{datasubTitle}</span>
 
                     </Typography>
                 </Box>

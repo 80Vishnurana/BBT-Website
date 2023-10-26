@@ -18,13 +18,13 @@ const KIOSKTouchScreen = () => {
                             KIOSK & Touch Screen is an input device kept in special container that functions through physical touch on screen. It works like a mouse pointer, simply touch on display screen user can perform various task. Touch screen kiosk allow the user to navigate the way according to the information using touch technology by user. Modern information kiosk includes Wi-Fi capability & 3G connectivity which makes it more attractive and also built with protective face panel using Perspex and toughened glass. We the team of Blue Brain Technologies believes in providing good customer service to ensure that consumer or visitor experienced good quality service every time they visit us. Here, we are able to provide kiosk & touch screen service in every possible effective area like marketing, sales, advertising and public relation.</Typography>
 
                     </Box>
-                    <Box pl={1} sx={{ height: { xs: "320px", md: "200px", lg: "250px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
+                    <Box pl={1} sx={{ height: { xs: "320px", md: "200px", lg: "250px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "10px 10px 3px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
                     </Box>
                 </Box>
             </Box>
             <Box sx={{ height: "auto", width: "100%", py: { xs: 8, lg: 12 }, px: { xs: 2, md: 3, lg: 10, }, }}>
-                <Box sx={{ height: "60vh", width: "75%", pl: { xs: 0, lg: 3 }, ml: 15 }}>
-                    <img src="../../public/laptop.jpg" alt="" height="100%" width="100%" />
+                <Box sx={{ height: { xs: "40vh", lg: "70vh" }, width: "75%", pl: { xs: 0, lg: 3 }, ml: 15 }}>
+                    <img style={{ boxShadow: "5px 5px 5px gray" }} src="../../public/koish-Touch.jpg" alt="" height="100%" width="100%" />
                 </Box>
                 <Box sx={{ px: { xs: 0, md: 1, lg: 3 }, py: { xs: 1, md: 2, lg: 4 } }}>
                     <Typography variant='body2' sx={{ fontWeight: "bold", fontSize: { xs: "20px", lg: "30px" }, pt: "20px", fontFamily: "sans-serif" }}>

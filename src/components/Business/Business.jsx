@@ -50,7 +50,7 @@ const Business = () => {
                                         An Information Technology (IT) Consultant helps business to create value and optimize their performance through technology. Strategy and operational mission...
                                     </Typography>
                                     <NavLink to="/ItConsulting">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -71,7 +71,7 @@ const Business = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/BusinessConsulting">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -92,7 +92,7 @@ const Business = () => {
                                         Reporting software is a powerful and fastest growing data visualization tool used in business Intelligence Industry. From connection to collaboration reporting tool...
                                     </Typography>
                                     <NavLink to="/Reaporting">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -113,7 +113,7 @@ const Business = () => {
                                         Digital era brought a time where every business are changing their focus from traditional marketing to digital platform but to grow better business online...
                                     </Typography>
                                     <NavLink to="/Digital">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -134,7 +134,7 @@ const Business = () => {
                                         If you are looking for less in cost yet profitable marketing tactics, so Bulk E-mail/SMS are the key. You are spending thousands on outdoor...
                                     </Typography>
                                     <NavLink to="/bulkemail">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -160,7 +160,7 @@ const Business = () => {
 
                                     </Typography>
                                     <NavLink to="/kiosh-touch">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>

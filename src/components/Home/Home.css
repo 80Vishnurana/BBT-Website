@@ -31,6 +31,18 @@
 
     }
 
+    .img img {
+        margin-left: 8rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .img {
+        padding: 0rem 4rem 0rem 4rem;
+
+
+    }
+
     .carouselimg {
         height: 15rem;
     }
@@ -50,7 +62,7 @@
 }
 
 .accodian :hover {
-    background-color: darkblue;
+    background-color: rgb(68 68 243);
     color: #fff;
 
 }
@@ -99,7 +111,7 @@
 }
 
 .accbox {
-    background-color: rgb(219, 218, 218);
+    background-color: rgb(235 199 173 / 25%);
     padding: 0px 5px 0px 5px;
 
 }

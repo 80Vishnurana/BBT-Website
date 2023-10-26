@@ -22,28 +22,39 @@ const Hospital = () => {
                 </Box>
             </Box>
             <Box sx={{ height: "auto", width: "100%", py: { xs: 8, lg: 12 }, px: { xs: 2, md: 3, lg: 25, }, }}>
-                <Box sx={{ height: "50vh", width: "100%", pl: { xs: 0, lg: 3 } }}>
-                    <img src="../../public/laptop.jpg" alt="" height="100%" width="100%" />
+                <Box sx={{ height: { xs: "40vh", md: "4vh", lg: "70vh" }, width: "100%", pl: { xs: 0, lg: 3 } }}>
+                    <img src="../../public/hospital.jpg" alt="" height="100%" width="100%" />
                 </Box>
                 <Box sx={{ px: { xs: 0, md: 1, lg: 3 }, py: { xs: 1, md: 2, lg: 4 } }}>
-                    <Typography variant='body2' sx={{ fontWeight: "bold", fontSize: { xs: "20px", lg: "30px" }, pt: "20px", fontFamily: "sans-serif" }}>
-                        These are some Hospital Management Benefits.
-                    </Typography>
-                    <Paper sx={{ p: 3, mt: 5, boxShadow: "3px 3px 8px gray", marginBottom: "2rem" }}>
-                        <Typography variant='body2' sx={{ fontSize: "20px", py: "30px" }}>
-                            <span style={{ backgroundColor: "darkblue", paddingLeft: "10px", marginRight: "5px", paddingRight: "10px", borderRadius: "20px", color: "white", height: "20px" }}>1</span> Improve speed of service and treatment by increasing efficiency of back-end and front-end process.
+                    <Paper sx={{ p: 6, mt: 5, boxShadow: "3px 3px 8px gray", marginBottom: "2rem" }}>
+                        <Typography variant='body2' sx={{ fontWeight: "bold", fontSize: { xs: "19px", lg: "25px" }, pb: 4, pt: "4px", fontFamily: "sans-serif" }}>
+                            These are some Hospital Management Benefits.
                         </Typography>
-                        <Typography variant='body2' sx={{ fontSize: "20px", pb: "30px" }}>
-                            <span style={{ backgroundColor: "darkblue", marginRight: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px", color: "white", height: "20px" }}>2</span> Reduce cost and increase productivity by eliminating human errors.
+                        <Typography variant='body2' sx={{ fontSize: "18px", py: "17px", }}>
+                            {/* <span >1</span> */}
+                            <li> Improve speed of service and treatment by increasing efficiency of back-end and front-end process. </li>
+                            {/* style={{ backgroundColor: "darkblue", paddingLeft: "10px", marginRight: "5px", paddingRight: "10px", borderRadius: "20px", color: "white", height: "20px" }} */}
                         </Typography>
-                        <Typography variant='body2' sx={{ fontSize: "20px", pb: "30px" }}>
-                            <span style={{ backgroundColor: "darkblue", marginRight: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px", color: "white", height: "20px" }}>3</span> Making patients information available at fingertip to care management staff.
+                        <Typography variant='body2' sx={{ fontSize: "18px", pb: "25px" }}>
+                            <li>
+                                Reduce cost and increase productivity by eliminating human errors.
+                            </li>
                         </Typography>
-                        <Typography variant='body2' sx={{ fontSize: "20px", pb: "30px" }}>
-                            <span style={{ backgroundColor: "darkblue", paddingLeft: "10px", marginRight: "5px", paddingRight: "10px", borderRadius: "20px", color: "white", height: "20px" }}>4</span> Business intelligence and Data visualization.
+                        <Typography variant='body2' sx={{ fontSize: "18px", pb: "30px" }}>
+                            <li>
+                                Making patients information available at fingertip to care management staff.
+                            </li>
                         </Typography>
-                        <Typography variant='body2' sx={{ fontSize: "20px", pb: "30px" }}>
-                            <span style={{ backgroundColor: "darkblue", marginRight: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px", color: "white", height: "20px" }}>5</span>Automation of 24/7 Helpdesk with chat bots and voice assistance.
+                        <Typography variant='body2' sx={{ fontSize: "18px", pb: "30px" }}>
+                            <li>
+
+                                Business intelligence and Data visualization.
+                            </li>
+                        </Typography>
+                        <Typography variant='body2' sx={{ fontSize: "18px", pb: "25px" }}>
+                            <li>
+                                Automation of 24/7 Helpdesk with chat bots and voice assistance.
+                            </li>
                         </Typography>
                     </Paper>
                 </Box>

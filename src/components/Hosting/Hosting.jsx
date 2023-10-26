@@ -13,13 +13,14 @@ const Hosting = () => {
                     <Box sx={{ pr: 6, pb: 2, }}>
                         <Typography variant='h4' sx={{ py: 2, fontWeight: "bold", fontSize: { xs: "25px", lg: "30px" } }} >
                             Domain Hosting
+                            <hr style={{ width: "15rem", border: "2px solid darkblue" }} />
                         </Typography>
                         <Typography variant="body1" sx={{ pb: 2, pt: 1 }}>
                             A service that allows any organization or any individuals to host a website onto internet called Domain hosting or Web hosting. We provide web hosting service to our client on a very wide arch. We help to provide you a domain name also if clients didn’t have it along with FTP access which helps to upload files from your local computer to web server. And one more, online website creation tool, word press support which conveniently creates and manage website through powerful blogging and content. Not just web hosting, we avail our client many other helpful services like script debuting, email not able to send or receive, domain name renewal at your doorstep with in house technician service.</Typography>
 
 
                     </Box>
-                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
+                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "350px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="../public/domain.jpg" alt="" height={"100%"} width={"100%"} />
                     </Box>
                 </Box>
             </Box>
@@ -37,13 +38,13 @@ const Hosting = () => {
                 </Typography></Box>
 
             <Box display={"flex"} sx={{ px: { xs: 2, lg: 12 }, py: { xs: 8, lg: 12 }, flexDirection: { xs: "column", lg: "row" }, backgroundColor: "rgb(236, 240, 247)", }}>
-                <Box sx={{ height: { xs: "30vh", lg: "58vh" }, width: { xs: "100%", lg: "125%" } }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                <Box sx={{ height: { xs: "30vh", lg: "51vh" }, width: { xs: "100%", lg: "80%" } }}>
+                    <img style={{ borderRadius: "1rem" }} src="../public/savehosting.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
                 <Box  >
                     <Box sx={{ ml: { xs: 1, lg: 5 }, mt: { xs: 3, lg: 0 }, }}  >
 
-                        <Paper sx={{ height: { xs: "auto", lg: "58vh", }, borderRadius: "1rem", py: { xs: 5, lg: 2 }, boxShadow: 4 }}>
+                        <Paper sx={{ height: { xs: "auto", lg: "51vh", }, borderRadius: "1rem", py: { xs: 5, lg: 2 }, boxShadow: 4 }}>
 
                             <Box sx={{ display: "flex", px: 1, }}>
                                 <Box sx={{ pr: 3, }}>
@@ -85,7 +86,7 @@ const Hosting = () => {
 
                 <Box sx={{ mr: 5 }}  >
 
-                    <Paper sx={{ height: "auto", width: { xs: "90vw", lg: "55vw" }, borderRadius: "1rem", p: 2, boxShadow: 4, py: { xs: 4 } }}>
+                    <Paper sx={{ height: "auto", width: { xs: "90vw", lg: "60vw" }, borderRadius: "1rem", p: 2, boxShadow: 4, py: { xs: 4 } }}>
 
                         <Box sx={{ display: "flex", px: 1, }}>
                             <Box sx={{ pr: 3, }}>
@@ -114,8 +115,8 @@ const Hosting = () => {
                         </Box>
                     </Paper>
                 </Box>
-                <Box sx={{ height: { xs: "38vh", lg: "55vh" }, width: { xs: "98%", lg: "150%" }, pt: { xs: 5, lg: 0 }, }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                <Box sx={{ height: { xs: "38vh", lg: "51vh" }, width: { xs: "98%", lg: "50%" }, pt: { xs: 5, lg: 0 }, }}>
+                    <img style={{ borderRadius: "1rem" }} src="../public/businessman.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
             </Box>
             <Box display={"flex"} sx={{
@@ -124,12 +125,12 @@ const Hosting = () => {
                 backgroundColor: "rgb(236, 240, 247)",
                 py: 10
             }}>
-                <Box sx={{ height: { xs: "38vh", lg: "64vh" }, width: { xs: "98%", lg: "150%", mb: { xs: 15, lg: 1 } } }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                <Box sx={{ height: { xs: "38vh", lg: "52vh" }, width: { xs: "98%", lg: "90%", mb: { xs: 15, lg: 1 } } }}>
+                    <img style={{ borderRadius: "1rem" }} src="../public/supporthosting.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
                 <Box>
                     <Box sx={{ ml: { md: 2, lg: 5, } }}>
-                        <Paper sx={{ height: { xs: "auto", md: "auto", lg: "64vh" }, marginTop: { xs: "4rem", md: "2rem", lg: "0rem" }, borderRadius: "1rem", p: 2, boxShadow: 4, py: 3 }}>
+                        <Paper sx={{ height: { xs: "auto", md: "auto", lg: "52vh" }, marginTop: { xs: "4rem", md: "2rem", lg: "0rem" }, borderRadius: "1rem", p: 2, boxShadow: 4, py: 3 }}>
                             <Box sx={{ display: "flex", px: 1, }}>
                                 <Box sx={{ pr: 3, }}>
                                     <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
@@ -141,7 +142,7 @@ const Hosting = () => {
                                     </Typography>
                                 </Box>
                             </Box>
-                            <Box sx={{ display: "flex", px: 1, mt: 5 }}>
+                            <Box sx={{ display: "flex", px: 1, mt: 2 }}>
                                 <Box sx={{ pr: 3, }}>
                                     <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                                 </Box>

@@ -74,7 +74,7 @@ const Slide = (props) => <motion.div
             <Paper sx={{ boxShadow: 4, p: "10px" }} >
                 <Box p={"0.5rem"} >
                     <Boxstyle >
-                        <Typography sx={{ height: { xs: '15rem', lg: "16rem", xl: "15px" } }}  >
+                        <Typography sx={{ height: { xs: '15rem', lg: "16rem", xl: "15px" } }} >
                             <img src="./blog1.jpg" alt=""
                                 width="100%" height="100%" />
                         </Typography>

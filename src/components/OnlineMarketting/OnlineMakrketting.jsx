@@ -49,7 +49,7 @@ const OnlineMakrketting = () => {
                                         Digital marketing is platform driven by Internet which helps to reach customers. This platform provides a new endeavor with new way...
                                     </Typography>
                                     <NavLink to="/digitalmarketing">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -70,7 +70,7 @@ const OnlineMakrketting = () => {
                                         SEO is an Abbreviation of Search Engine Optimization, is a service that felicitates the quantity and quality of website traffic and increases its visibility...
                                     </Typography>
                                     <NavLink to="/seo">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -91,7 +91,7 @@ const OnlineMakrketting = () => {
                                         Hitting the rod when it’s hot’ this idiom really suit the above written service E-Mail & WhatsApp Marketing...
                                     </Typography>
                                     <NavLink to="/Email">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -112,7 +112,7 @@ const OnlineMakrketting = () => {
                                         Social Media is a platform where people spent their whole day without getting bored or tired and some of them are so addicted to browse...
                                     </Typography>
                                     <NavLink to="/socialmedia">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -134,7 +134,7 @@ const OnlineMakrketting = () => {
                                         In the ear of competition, every business organizations are wrestling to get better numbers and figures from each other, and to attain those leaps in market...
                                     </Typography>
                                     <NavLink to="/contactmarketing">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>

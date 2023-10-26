@@ -19,7 +19,7 @@ const UiuxDesign = () => {
                             UI (User Interface) is a process of using the presentation and interactivity in web and mobile application and on the other hand UX (User Experience) development is a procedure to improve the overall experience of user while using the web or mobile application. Both designing process is a significant part of every web development in today’s era. This particular feature has ability to navigate the predetermined target in most efficient way to user. UI/UX designing service, grab consumers attention and generate more revenue from company’s products and become more essential for business success. Here at Blue Brain Technologies, we work with various new aspects to come up with some really exciting work like: latest design trends, business requirements, security technology etc. With the help of advanced designing tools, our experienced designers create eye-catching designs, which provide almost everything about your products and services to attract more customers. Our creative designers easily frame the layout for mobile and web application with the help of advance prototyping tools. We develop product specific application for various device and screen type like IOS and Android in pocket friendly manner along with full customer satisfaction.</Typography>
 
                     </Box>
-                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "40vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
+                    <Box pl={1} sx={{ pt: { xs: 3, lg: 13 }, height: { xs: "320px", md: "400px", lg: "500px" }, width: { xs: "80vw", md: "100vw", lg: "40vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="ui-ux.jpg" alt="" height={"100%"} width={"100%"} />
                     </Box>
                 </Box>
             </Box>
@@ -39,7 +39,7 @@ const UiuxDesign = () => {
 
             <Box display={"flex"} sx={{ px: { xs: 2, lg: 12 }, py: { xs: 8, lg: 12 }, flexDirection: { xs: "column", lg: "row" }, backgroundColor: "rgb(236, 240, 247)", }}>
                 <Box sx={{ height: { xs: "30vh", lg: "58vh" }, width: { xs: "100%", lg: "125%" } }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/uiux.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
                 <Box  >
                     <Box sx={{ ml: { xs: 1, lg: 5 }, mt: { xs: 3, lg: 0 }, }}  >
@@ -115,7 +115,7 @@ const UiuxDesign = () => {
                     </Paper>
                 </Box>
                 <Box sx={{ height: { xs: "38vh", lg: "55vh" }, width: { xs: "98%", lg: "150%" }, pt: { xs: 5, lg: 0 }, }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/table-looking.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
             </Box>
             <Box display={"flex"} sx={{

@@ -33,7 +33,7 @@ const Designing = () => {
                     <Grid container justifyContent={"flex-start"} sx={{ px: { xs: 1, lg: 16 } }} >
                         <Grid xs={12} md={6} lg={4} sx={{ mt: 6, mb: 2 }}  >
 
-                            <Paperstyle className='cards' sx={{ m: 2, width: "19rem", boxShadow: "3px 3px 3px gray", border: "1px solid gray", borderTopLeftRadius: "5rem", borderBottomRightRadius: "5rem", }}>
+                            <Paperstyle className='cards' sx={{ m: 2, width: "19rem", height: "88%", boxShadow: "3px 3px 3px gray", border: "1px solid gray", borderTopLeftRadius: "5rem", borderBottomRightRadius: "5rem", }}>
                                 <Box p={3}>
                                     <Box
                                         sx={{ py: { xs: 2, lg: 4 } }}
@@ -48,7 +48,7 @@ const Designing = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/Website">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -68,28 +68,28 @@ const Designing = () => {
                                     <Typography pt={1}>
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
-                                    <NavLink to="/hosting">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "20px", py: "10px" }}>Read Me</Button>
+                                    <NavLink to="/graphicDes">
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
                         </Grid>
                         <Grid xs={12} md={6} lg={4} sx={{ my: 6, }}  >
 
-                            <Paperstyle className='cards' sx={{ m: 2, width: "19rem", boxShadow: "3px 3px 3px gray", border: "1px solid gray", borderTopLeftRadius: "5rem", borderBottomRightRadius: "5rem", }}>
+                            <Paperstyle className='cards' sx={{ m: 2, width: "19rem", height: "93%", boxShadow: "3px 3px 3px gray", border: "1px solid gray", borderTopLeftRadius: "5rem", borderBottomRightRadius: "5rem", }}>
                                 <Box p={2}>
                                     <Box
                                         sx={{ py: { xs: 2, lg: 2 } }}><LaptopMacIcon sx={{ fontSize: "4rem" }} />
                                     </Box>
-                                    <Typography variant='h4' pb={1} fontSize={"20x"} fontWeight={500}>
+                                    <Typography variant='h4' pb={2} fontSize={"22px"} fontWeight={600}>
 
                                         Logo & Banner Design
                                     </Typography>
-                                    <Typography pt={1}>
+                                    <Typography pt={3}>
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/logo">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -110,7 +110,7 @@ const Designing = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/uiux">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -131,7 +131,7 @@ const Designing = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/hosting">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "30px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>

@@ -17,7 +17,7 @@ import OnlineMakrketting from "../OnlineMarketting/OnlineMakrketting";
 import ItTraoning from "../It-Training/ItTraoning";
 import Certificate from "../Certificate/Certificate";
 import Website from "../WebsiteDesigning/Website";
-import Hosting from "../GraphicD/Graphic";
+
 import LogoBanner from "../LogoBannerDesidninge/LogoBanner";
 import UiuxDesign from "../UiuxDesign/UiuxDesign";
 import WebApplication from "../DevelopmentServices/WebApplication";
@@ -38,7 +38,7 @@ import Sco from "../OnlineProd.jsx/Sco";
 import EmailMarketing from "../OnlineProd.jsx/EmailMarketing";
 import SocialMedia from "../OnlineProd.jsx/SocialMedia";
 import ContactMarketing from "../OnlineProd.jsx/ContactMarketing";
-import NetTraning from "../It-Traning/netTraning";
+import NetTraning from "../It-Traning/NetTraning";
 import SeoTraining from "../It-Traning/SeoTraining";
 import PhpTraning from "../It-Traning/PhpTraning";
 import SqlTraning from "../It-Traning/SqlTraning";
@@ -54,6 +54,16 @@ import HRPayrollERP from "../Product/HRPayrollERP";
 import VisitorManagementSystem from "../Product/VisitorManagementSystem";
 import ECommercePortal from "../Product/ECommercePortal";
 import KIOSKTouchScreen from "../Product/KIOSKTouchScreen";
+import Hosting from "../Hosting/Hosting";
+import Graphic from "../GraphicD/Graphic";
+import MobileTraning from "../It-Traning/MobileTraning";
+import WebDesigningTraning from "../It-Traning/WebDesigningTraning";
+import MvcFramework from "../Framework/MvcFramework";
+import CloudServer from "../Framework/CloudServer";
+import DomainServices from "../Framework/DomainServices";
+import Platform from "../Framework/Platform";
+import PaymentGateway from "../Framework/PaymentGateway";
+import Mobility from "../Framework/Mobility";
 
 
 const Layout = () => {
@@ -82,7 +92,7 @@ const Layout = () => {
 
             <Route path="/career" element={<Career />} />
             <Route path="/Blog" element={<Blog />} />
-            <Route path="/hosting" element={<Hosting />} />
+            <Route path="/graphicDes" element={<Graphic />} />
             <Route path='/OurServices/designing' element={<Designing />} />
             <Route path="/Website" element={<Website />} />
             <Route path="/logo" element={<LogoBanner />} />
@@ -113,12 +123,20 @@ const Layout = () => {
             <Route path='/contactmarketing' element={<ContactMarketing />} />
             <Route path='/OurServices/Training' element={<ItTraoning />} />
             <Route path="/mobileApplication" element={<MobileApplication />} />
+            <Route path="/mobileTraning" element={<MobileTraning />} />
             <Route path="/NetTraning" element={<NetTraning />} />
             <Route path="/seoTraining" element={<SeoTraining />} />
             <Route path="/phptraning" element={<PhpTraning />} />
+            <Route path="/WebTraning" element={<WebDesigningTraning />} />
             <Route path="/sqltraning" element={<SqlTraning />} />
             <Route path="/OurServices/Framework" element={<FrameworkTechnology />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/MvcFramework" element={<MvcFramework />} />
+            <Route path="/CloudServer" element={<CloudServer />} />
+            <Route path="/DomainServices" element={<DomainServices />} />
+            <Route path="/Platform" element={<Platform />} />
+            <Route path="/PaymentGateway" element={<PaymentGateway />} />
+            <Route path="/Mobility" element={<Mobility />} />
           </Route>
         </Routes>
       </BrowserRouter >

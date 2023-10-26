@@ -24,7 +24,7 @@ const Website = () => {
                         </Typography>
 
                     </Box>
-                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
+                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="../public/websites.jpg" alt="" height={"100%"} width={"100%"} />
                     </Box>
                 </Box>
             </Box>
@@ -43,7 +43,7 @@ const Website = () => {
 
             <Box display={"flex"} sx={{ px: { xs: 2, lg: 12 }, py: { xs: 8, lg: 12 }, flexDirection: { xs: "column", lg: "row" }, backgroundColor: "rgb(236, 240, 247)", }}>
                 <Box sx={{ height: { xs: "30vh", lg: "58vh" }, width: { xs: "100%", lg: "125%" } }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/website.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
                 <Box  >
                     <Box sx={{ ml: { xs: 1, lg: 5 }, mt: { xs: 3, lg: 0 }, }}  >
@@ -121,7 +121,7 @@ const Website = () => {
                     </Paper>
                 </Box>
                 <Box sx={{ height: { xs: "38vh", lg: "55vh" }, width: { xs: "98%", lg: "150%" }, pt: { xs: 5, lg: 0 }, }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/searchwebsite.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
             </Box>
             <Box display={"flex"} sx={{
@@ -131,7 +131,7 @@ const Website = () => {
                 py: 10
             }}>
                 <Box sx={{ height: { xs: "38vh", lg: "64vh" }, width: { xs: "98%", lg: "150%", mb: { xs: 15, lg: 1 } } }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
+                    <img style={{ borderRadius: "1rem" }} src="../public/brandwebsite.jpg" alt="" height={"100%"} width={"100%"} />
                 </Box>
                 <Box>
                     <Box sx={{ ml: { md: 2, lg: 5, } }}>

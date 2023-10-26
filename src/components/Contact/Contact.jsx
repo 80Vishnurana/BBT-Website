@@ -150,8 +150,8 @@ const Contact = () => {
 
 
 
-        <Box  >
 
+        {/* 
           <FormControl>
             <Box
               component="form"
@@ -176,9 +176,12 @@ const Contact = () => {
               />
             </Box>
 
-          </FormControl>
+          </FormControl> */}
 
-        </Box>
+      </Box>
+
+      <Box sx={{ height: "70vh" }}>
+        <div class="row"><div class="mx-auto col-md-10"><form id="contact-form-1" method="post" role="form" class="p-3"><div class="card-body"><div class="row"><div class="col-md-6"><label>First name</label><div class="input-group"><div class="input-group-prepend"><span class="input-group-text"><i class="tim-icons icon-single-02"></i></span></div><input aria-label="First Name..." placeholder="First Name..." type="text" class="form-control" /></div></div><div class="col-md-6"><div class="form-group"><label>Last name</label><div class="input-group"><div class="input-group-prepend"><span class="input-group-text"><i class="tim-icons icon-caps-small"></i></span></div><input aria-label="Last Name..." placeholder="Last Name..." type="text" class="form-control" /></div></div></div></div><div class="form-group"><label>Email address</label><div class="input-group"><div class="input-group-prepend"><span class="input-group-text"><i class="tim-icons icon-email-85"></i></span></div><input placeholder="Email Here..." type="text" class="form-control" /></div></div><div class="form-group"><label>Your message</label><textarea id="message-1" name="message" rows="6" class="form-control"></textarea></div><div class="row"><div class="ml-auto col-md-6"><button class="btn-round pull-right btn btn-primary">Send Message</button></div></div></div></form></div></div>
       </Box>
 
 

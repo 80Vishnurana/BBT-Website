@@ -48,7 +48,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/webApplication">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -69,7 +69,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/erpDeveloper">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "25px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -90,7 +90,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/customization">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "20px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -111,7 +111,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/mobileApplication">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -132,7 +132,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/APIdevelopment">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -153,7 +153,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/ECommerceDevelopment">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -174,7 +174,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/ContentManagement">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -195,7 +195,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/WebsiteCustomization">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>
@@ -216,7 +216,7 @@ const Development = () => {
                                         At blue brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business...
                                     </Typography>
                                     <NavLink to="/ThirdParty">
-                                        <Button variant="contained" sx={{ my: "2rem", backgroundColor: "darkblue", px: "22px", py: "10px" }}>Read Me</Button>
+                                        <Button variant="contained" sx={{ my: "2rem", px: "15px", py: "5px" }}>Read Me</Button>
                                     </NavLink>
                                 </Box>
                             </Paperstyle>

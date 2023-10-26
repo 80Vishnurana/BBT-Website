@@ -3,7 +3,7 @@ import Heading from '../Heading/Heading'
 import React from 'react'
 
 const SeoTraining = () => {
-    const heading = " Business & Planning Services"
+    const heading = "IT Training Services"
     const subheading = "Our Services"
     return (
         <>
@@ -12,16 +12,20 @@ const SeoTraining = () => {
                 <Box sx={{ px: { xs: 0, md: 1, lg: 5 }, py: { xs: 1, md: 2, lg: 4 }, display: "flex", flexDirection: { xs: "column", lg: "row" }, }}>
                     <Box sx={{ pr: 6, pb: 2, }}>
                         <Typography variant='h4' sx={{ py: 2, fontWeight: "bold", fontSize: { xs: "25px", lg: "30px" } }} >
-                            Website Design
+                            SEO Training
+                            <hr style={{ width: "15rem", border: "2px solid darkblue" }} />
                         </Typography>
                         <Typography variant="body1" sx={{ pb: 2, pt: 1 }}>
-                            At Blue Brain Technologies, we deliver unique, promising and superlative website designing service to our clients. A website is the first impression of your business and it should be designed properly according to the client’s vision as it is a quintessential part of your company. We design your website with superlative projects plan after studying and analyzing your business requirement. As per the demand, we provide affordable cum creative work to let your business grows at par. We have a qualified bunch of experienced website designers who perfectly understand the need and perception for the website and create it accordingly with the entire knowledge of designing tool and come up with a quality result to boost your business.</Typography>
-                        <Typography variant="body1" sx={{ py: 2 }}>
-                            A responsive website is a key to uplift the most difficult plight into a better state and benefits your company in multiple ways.
+                            We are living in the era of technology where everything is depends on internet and without it no one can imagine their life for a second. If we go back in time and recall the marketing scenario, which is absolutely opposite from this time. To promote products or service or either website people get involved in physical marketing and go door to door to advertise their expertise. But in new age we step ahead with digital marketing where we are promoting our business, products and services on our fingertip with the help of modern techniques and SEO marketing is the first thing which passes by everyone’s mind when we talk about Digital Marketing.</Typography>
+                        <Typography variant="body1" >
+                            SEO (Search Engine Optimization) is a process to rank any website on search engine such as Google, Bing, MSN etc. in the area of online marketing SEO training is must to have. Nowadays, every organization has their own domain named websites and wanted to get higher traffic and revenue from online marketing and SEO Manager have potential to get this desire in reality with the help of SEO Training.
+                            The trainers at Blue Brain Technologies have trained you with the technicality to boost up the rank and revenue of website in few weeks.
+
+
                         </Typography>
 
                     </Box>
-                    <Box pl={1} sx={{ pt: { xs: 3, lg: 3 }, height: { xs: "320px", md: "400px", lg: "400px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
+                    <Box pl={1} sx={{ pt: { xs: 3, lg: 15 }, height: { xs: "320px", md: "400px", lg: "500px" }, width: { xs: "80vw", md: "100vw", lg: "250vw" } }}><img style={{ boxShadow: "15px 15px 5px black" }} src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=740&t=st=1697014626~exp=1697015226~hmac=760f6a455e5ab4f6e8255de9bd56600a7c2e078641ec9e64809a55387dc0bf8e" alt="" height={"100%"} width={"100%"} />
                     </Box>
                 </Box>
             </Box>
@@ -34,8 +38,8 @@ const SeoTraining = () => {
                 <Typography>
                     <img height="40px" width="40px" src="../public/hand.png" alt="" />
                 </Typography>
-                <Typography variant='h5' sx={{ fontWeight: "600", fontFamily: "sans-serif", pb: 3 }}>
-                    Being a professional website designer, we whip up your company with several benefits:
+                <Typography variant='h6' sx={{ fontWeight: "600", fontFamily: "sans-serif", pb: 3 }}>
+                    We will teach you every online marketing aspect related to SEO service:
                 </Typography></Box>
 
             <Box display={"flex"} sx={{ px: { xs: 2, lg: 12 }, py: { xs: 8, lg: 12 }, flexDirection: { xs: "column", lg: "row" }, backgroundColor: "rgb(236, 240, 247)", }}>
@@ -52,9 +56,11 @@ const SeoTraining = () => {
                                     <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                                 </Box>
                                 <Box>
-                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>First Impression always last long
+                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>SEO training Boost up Career
                                     </Typography>
-                                    <Typography sx={{ fontFamily: "sans-serif" }}>A website designed by us provide a look that flatter your visitors and give them a reason to explore more. A perfect designed website leaves an impression with high quality experience to your visitors and lead to more verbal referral and new visitors to your website.
+                                    <Typography sx={{ fontFamily: "sans-serif" }}>Most of the organization trained their in-house employees in Digital Marketing arena to save the cost of online marketing and avoid hiring another employee as a SEO manager. So if you have an excellent knowledge in SEO training with your mainstream capabilities, will boost up your career and benefitted you with higher salary.
+
+
 
 
                                     </Typography>
@@ -67,9 +73,9 @@ const SeoTraining = () => {
                                     <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                                 </Box>
                                 <Box>
-                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Never underestimate your competitors
+                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Learn Internet Marketing Skills
                                     </Typography>
-                                    <Typography sx={{ fontFamily: "sans-serif" }}>Nowadays there are almost every company which assist their business online and they all have a website to control it. We provide you a good, professional and responsive website that has potential to compete with your competitors and achieve a good response form your customers. We provide you a website equipped with latest trends and technology in order to keep up with your competitors.
+                                    <Typography sx={{ fontFamily: "sans-serif" }}> SEO techniques facilitate to improve the visibility of targeted website on Search engine and promote business online. It will benefit you more engagement on your website and also get the high ranked on the search page of frequent clicked keyword with the training of SEO. This will cost you a lot which you had to pay to a SEO manager to maintain your visibility on search engine. But after the training, you may saves those money and use it on your core productivity.
                                     </Typography>
 
                                 </Box>
@@ -108,9 +114,9 @@ const SeoTraining = () => {
                                 <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
                             </Box>
                             <Box>
-                                <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Whip up your ranking in Search Engine
+                                <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Maintain your skills on your own
                                 </Typography>
-                                <Typography sx={{ fontFamily: "sans-serif" }}>A niche content and code on website helps your website to rank on any search engine like Google. A good quality Web design elements are directly effects on SEO to improve the visibility of website on search result.
+                                <Typography sx={{ fontFamily: "sans-serif" }}>If you are a professional writer or a skilled website designer you can maintain your skill on your own by exercising you training of SEO on your work. Analyze the graph of ranking after each attempt of optimization with search engine. These frequent analyses of your own strength encourage you to start your journey as a SEO Manager.
                                 </Typography>
 
                             </Box>
@@ -119,46 +125,6 @@ const SeoTraining = () => {
                 </Box>
                 <Box sx={{ height: { xs: "38vh", lg: "55vh" }, width: { xs: "98%", lg: "150%" }, pt: { xs: 5, lg: 0 }, }}>
                     <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
-                </Box>
-            </Box>
-            <Box display={"flex"} sx={{
-                flexDirection: { xs: "column", md: "column", lg: "row" },
-                px: { xs: 2, lg: 12, },
-                backgroundColor: "rgb(236, 240, 247)",
-                py: 10
-            }}>
-                <Box sx={{ height: { xs: "38vh", lg: "64vh" }, width: { xs: "98%", lg: "150%", mb: { xs: 15, lg: 1 } } }}>
-                    <img style={{ borderRadius: "1rem" }} src="../public/laptop.jpg" alt="" height={"100%"} width={"100%"} />
-                </Box>
-                <Box>
-                    <Box sx={{ ml: { md: 2, lg: 5, } }}>
-                        <Paper sx={{ height: { xs: "auto", md: "auto", lg: "64vh" }, marginTop: { xs: "4rem", md: "2rem", lg: "0rem" }, borderRadius: "1rem", p: 2, boxShadow: 4, py: 3 }}>
-                            <Box sx={{ display: "flex", px: 1, }}>
-                                <Box sx={{ pr: 3, }}>
-                                    <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
-                                </Box>
-                                <Box  >
-                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Establishes consistent Brand Identity
-                                    </Typography>
-                                    <Typography sx={{ fontFamily: "sans-serif" }}>As a professional website designer we keep up the consistency of your brand identity always high or maintained as per business requirement.
-                                        We keep leads on your page and let them familiar with your business that keep engaging more and more traffic with the steadiness in your brand identity.
-                                    </Typography>
-                                </Box>
-                            </Box>
-                            <Box sx={{ display: "flex", px: 1, mt: 5 }}>
-                                <Box sx={{ pr: 3, }}>
-                                    <img style={{ height: "30px", width: "30px", paddingTop: "5px" }} src="../public/point.png" alt="" />
-                                </Box>
-                                <Box >
-                                    <Typography variant='h6' sx={{ fontFamily: "sans-serif", py: 1, fontWeight: 500 }}>Reduction in Bounce Rate
-                                    </Typography>
-                                    <Typography sx={{ fontFamily: "sans-serif" }}>A professional responsive website has lower bounce rate. A website should be engaging enough to hold up visitors to check every pages of website which reduce the bounce rate.
-                                        We offer you a website with engaging data and content to hold up visitors. Visitor will be inclined to click and read every section of your website and get aware of the service that you’ve got to offer
-                                    </Typography>
-                                </Box>
-                            </Box>
-                        </Paper>
-                    </Box>
                 </Box>
             </Box>
 
